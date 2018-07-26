@@ -1,7 +1,7 @@
 package YiJi;
 import java.util.Scanner;
 
-public class ABC
+public class ABC1011
 {
     public static void main(String[] args){
     Scanner in =new Scanner(System.in);

@@ -14,7 +14,7 @@ public class caiXiang1001{
      n/=2;
      count++;
     }
-    
+    in.close();
     System.out.print(count);
   }
 }

@@ -1,7 +1,8 @@
 package YiJi;
 
-import java.util.HashMap;
 import java.util.Scanner;
+import java.util.HashMap;
+
 
 public class pinyin1002 {
 		  public static void main(String[] args)
@@ -30,12 +31,13 @@ public class pinyin1002 {
 			{
 				Character c=result.charAt(i);
 				int num=Integer.parseInt(c.toString());	
-				if(i!=result.length())
+				if(i!=result.length()-1)
 				System.out.print(spellTable.get(num)+" ");
 				else
 			   System.out.print(spellTable.get(num));
 			}
 
-		    
+			   in.close();
 		  }
+
 		}
