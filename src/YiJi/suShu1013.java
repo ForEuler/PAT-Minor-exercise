@@ -3,7 +3,7 @@ package YiJi;
 import java.util.Scanner;
 
 
-public class suShu {
+public class suShu1013 {
 	public static void main(String[] args)
 	{
     Scanner in=new Scanner(System.in);
